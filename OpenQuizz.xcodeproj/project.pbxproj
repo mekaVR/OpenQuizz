@@ -12,6 +12,7 @@
 		A4C89BC3206418CC00C81926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C89BC1206418CC00C81926 /* Main.storyboard */; };
 		A4C89BC5206418CC00C81926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C89BC4206418CC00C81926 /* Assets.xcassets */; };
 		A4C89BC8206418CC00C81926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C89BC6206418CC00C81926 /* LaunchScreen.storyboard */; };
+		A4C89BD0206420E400C81926 /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = A4C89BCF206420E400C81926 /* Balham.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4C89BC4206418CC00C81926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C89BC7206418CC00C81926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C89BC9206418CC00C81926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C89BCF206420E400C81926 /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A4C89BBD206418CC00C81926 /* AppDelegate.swift */,
 				A4C89BBF206418CC00C81926 /* ViewController.swift */,
 				A4C89BC1206418CC00C81926 /* Main.storyboard */,
+				A4C89BCF206420E400C81926 /* Balham.otf */,
 				A4C89BC4206418CC00C81926 /* Assets.xcassets */,
 				A4C89BC6206418CC00C81926 /* LaunchScreen.storyboard */,
 				A4C89BC9206418CC00C81926 /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				A4C89BC8206418CC00C81926 /* LaunchScreen.storyboard in Resources */,
 				A4C89BC5206418CC00C81926 /* Assets.xcassets in Resources */,
+				A4C89BD0206420E400C81926 /* Balham.otf in Resources */,
 				A4C89BC3206418CC00C81926 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

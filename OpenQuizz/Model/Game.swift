@@ -20,11 +20,6 @@ class Game {
         case ongoing, over
     }
     
-    private func receiveQuestions(_ questions: [Question]){
-        self.questions = questions
-        state = .ongoing
-    }
-    
     var currentQuestion: Question {
         return questions[currentIndex]
     }
@@ -34,7 +29,10 @@ class Game {
         state = .over
         currentIndex = 0
         
-        QuestionManager.shared.get(completionHandler: receiveQuestions)
+        QuestionManager.shared.get{ (questions) in
+            self.questions = questions
+            self.state = .ongoing
+        }
     }
     
     func answerCurrentQuestion(with answer: Bool){
